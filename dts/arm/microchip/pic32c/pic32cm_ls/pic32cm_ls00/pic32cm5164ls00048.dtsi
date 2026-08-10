@@ -1,0 +1,29 @@
+/*
+ * Copyright (c) 2026
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+#include "../common/pic32cm_ls.dtsi"
+
+/ {
+	compatible = "microchip,pic32cm5164ls00048";
+
+	/*
+	 * PIC32CM5164LS00048
+	 *
+	 * Boot Flash:       16 KiB
+	 * Application Flash: 496 KiB
+	 * Total Flash:      512 KiB
+	 */
+
+	boot_flash: flash@0 {
+		compatible = "soc-nv-flash";
+		reg = <0x00000000 0x4000>;
+	};
+
+	flash0: flash@4000 {
+		compatible = "soc-nv-flash";
+		reg = <0x00004000 0x7c000>;
+	};
+};

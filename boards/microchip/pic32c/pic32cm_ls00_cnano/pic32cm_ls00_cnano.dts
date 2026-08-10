@@ -1,0 +1,13 @@
+/dts-v1/;
+
+#include <microchip/pic32c/pic32cm_ls/pic32cm_ls00/pic32cm5164ls00048.dtsi>
+
+/ {
+	model = "PIC32CM LS00 Curiosity Nano+";
+	compatible = "microchip,pic32cm-ls00-cnano";
+
+	chosen {
+		zephyr,sram = &sram0;
+		zephyr,flash = &flash0;
+	};
+};

@@ -1,0 +1,11 @@
+/*
+ * Copyright (c) 2026
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+#include "../common/pic32cm_ls.dtsi"
+
+/ {
+	compatible = "microchip,pic32cm5164ls00048";
+};
