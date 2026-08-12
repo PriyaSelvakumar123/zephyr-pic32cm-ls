@@ -465,7 +465,6 @@ Electronics and Communication Engineering
 **Embedded Systems | Zephyr RTOS | Embedded C**
 
 ---
-
 ## License
 
 This work follows the licensing conventions of the **Zephyr Project**.
